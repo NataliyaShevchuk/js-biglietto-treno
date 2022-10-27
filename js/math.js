@@ -7,9 +7,9 @@ console.log("L'età del passeggero:", userAge);
 
 
 if (userAge < 18 ){
-    console.log("Se il passeggero è minorenne, pagherà:", ( price * .8));
+    console.log("Il passeggero è minorenne, pagherà:", ( price * .8));
 } else if (userAge >= 65 ){
-    console.log("Se il passeggero è over 65, pagherà:", ( price * .6));
+    console.log("Il passeggero è over 65, pagherà:", ( price * .6));
 }
 
 
